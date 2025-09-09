@@ -5,7 +5,7 @@ if weight_str[-2:] == "kg":
     kg = float(weight_str[:-2])
     pd = kg * kg_to_pd
     print(f"对应的英制重量为{pd:.3f}磅")
-elif weight_str[-2:] == "pd":
+elif weight_str[-2:] == "kg":
     pd = float(weight_str[:-2])
     kg = pd / kg_to_pd
     print(f"对应的公制重量为{kg:.3f}公斤")
