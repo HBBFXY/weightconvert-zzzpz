@@ -6,3 +6,5 @@ if WeightStr[-2:] in ['kg','KG']:
 elif WeightStr[-2:] in ['pd','PD']:
     K = eval(WeightStr[0:-2]) / 2.2046
     print("转换后的重量是{:.3f}kg".format(K))
+else:
+    print("输入格式错误")
