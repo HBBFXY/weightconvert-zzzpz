@@ -1,6 +1,5 @@
 # WeightConvert.py
 WeightStr = input().strip().lower()
-
 if WeightStr.endswith('kg'):
     # 千克转换为磅
     value = float(WeightStr[:10])
